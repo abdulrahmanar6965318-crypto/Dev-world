@@ -1,0 +1,99 @@
+.content {
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.7;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+}
+
+.content h3 {
+  margin-top: 20px;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+* { margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: #BDC970;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #0B1F71;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+nav a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+.hero p {
+  margin: 20px 0;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #38bdf8;
+  color:#760043;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
+<style>
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+</style>
